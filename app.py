@@ -1,14 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
-import os
 from datetime import datetime, timedelta
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
-import plotly.express as px
-import plotly.graph_objects as go
 
 # Page configuration with custom theme
 st.set_page_config(
